@@ -1,0 +1,96 @@
+body {
+  font-family: 'Roboto Mono';
+  font-weight: 600;
+  font-size: 1rem;
+  line-height: 1.6;
+  margin: 0 2rem;
+  background-color: var(--primary3);
+  color: var(--primary1);
+}
+
+a{
+  text-decoration: none;
+  color: var(--primary1);
+  font-size: 1.25rem;
+
+}
+
+a:hover{
+  color: var(--primary2);
+  border-radius: 0.0625rem;
+  transition: 0.3s;
+}
+
+header{
+  border-bottom: 0.125rem solid;
+  border-image: linear-gradient(to right,var(--primary2),var(--primary3)) 1;
+  border-radius: 0.0625rem;
+
+}
+
+.container{
+  margin: 2rem 8rem;
+}
+
+.menuItems{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+.section{  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 4rem;
+}
+
+.text{
+  color: var(--primary2);
+}
+
+.name{
+  margin-top: 0.25rem;
+  font-family: 'Indie Flower';
+  font-size: 1.5rem;
+}
+
+.halfText, .halfImages{
+  width: 40%;
+}
+
+.halfText{
+  margin-right: 10%;
+  text-align: end;
+}
+
+.halfImages{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 5%;
+  margin-left: 10%;
+}
+
+.language{
+  width: 30%;
+  max-width: 133px;
+}
+
+
+.scroll{
+  flex-direction: column;
+  margin-top: 4rem;
+  font-family: 'Indie Flower';
+  font-size: 1.25rem;
+}
+
+.verticalLine{
+  margin: 2rem 0;
+  height: 18rem;
+  width: 0;
+  border-right: 0.125rem solid;
+  border-color: var(--primary2);
+  border-radius: 0.0625rem;
+}
