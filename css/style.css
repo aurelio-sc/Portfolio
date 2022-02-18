@@ -3,7 +3,6 @@ body {
   font-weight: 600;
   font-size: 1rem;
   line-height: 1.6;
-  margin: 0 2rem;
   background-color: var(--primary3);
   color: var(--primary1);
 }
@@ -21,7 +20,7 @@ a:hover{
   transition: 0.3s;
 }
 
-header, .title{
+.title{
   border-bottom: 0.125rem solid;
   border-image: linear-gradient(to right,var(--primary2),var(--primary3)) 1;
   border-radius: 0.0625rem;
@@ -32,6 +31,21 @@ header, .title{
   margin: 2rem 8rem;
 }
 
+.menu{
+  padding-top: 1rem;
+  position: fixed;
+  border-bottom: 0.0625rem solid;
+  border-color: var(--primary2);
+  border-radius: 0.0625rem;
+  width: 100%;
+  background: var(--primary3);
+  padding-bottom: 1rem;
+}
+
+.menu.rolling{
+  box-shadow: 0 0 1rem var(--primary2);
+}
+
 .menuItems{
   display: flex;
   justify-content: center;
@@ -39,12 +53,17 @@ header, .title{
   gap: 2rem;
 }
 
+#home{
+  padding-top: 7rem;
+}
+
 .zone{  
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 4rem;
+  margin: 0 2rem;
   flex-wrap: wrap;
+  padding-top: 5rem;
 }
 
 .textContent{
@@ -82,19 +101,18 @@ header, .title{
 }
 .language{
   width: 30%;
-  max-width: 133px;
+  max-width: 8.3125rem;
 }
 
 
 .scroll{
   flex-direction: column;
-  margin-top: 4rem;
   font-family: 'Indie Flower';
   font-size: 1.25rem;
 }
 
 .verticalLine{
-  margin: 2rem 0;
+  margin-top: 2rem;
   height: 18rem;
   width: 0;
   border-right: 0.125rem solid;
@@ -141,7 +159,7 @@ a:hover{
   grid-template-columns: calc(50% - 1rem) calc(50% - 1rem);
   grid-template-rows: 25% 25% 25% 25%;
   height: fit-content;
-  gap: 2rem;
+  gap: 4rem 2rem;
 }
 
 .cellImg{
@@ -194,6 +212,7 @@ a:hover{
 
 #img4{
   background-image: url("../img/launchCountdownTimer.png");
+  background-size: 80%;
   grid-column: 2/2;
   grid-row: 4/4;
 }
@@ -202,4 +221,16 @@ a:hover{
   grid-column: 1/2;
   grid-row: 4/4;
   text-align: end;
+}
+
+#contact{
+  padding-top: 12rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.mail{
+  font-size: 4rem;
 }
