@@ -234,3 +234,25 @@ a:hover{
 .mail{
   font-size: 4rem;
 }
+
+.footer{
+  justify-content: space-between;
+  padding: 4rem 4rem 0 4rem;
+}
+
+.createdBy{
+  font-size: 0.75rem;
+}
+
+.social{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.socialIcon{
+  background-color: var(--primary3);
+  margin-top: 0;
+  margin-bottom: 2rem;
+}
