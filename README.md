@@ -4,5 +4,5 @@
 - [x] Projects
 - [x] Contact
 - [x] Footer
-- [] Media Queries <- Next step!
+- [ ] Media Queries <- Next step!
 
