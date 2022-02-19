@@ -256,3 +256,11 @@ a:hover{
   margin-top: 0;
   margin-bottom: 2rem;
 }
+
+.iconColor{
+  filter: invert(93%) sepia(16%) saturate(125%) hue-rotate(354deg) brightness(94%) contrast(90%);
+}
+
+.socialIcon:hover .iconColor{ /*Quando o elemento pai (.socialIcon) for hovered, o filho (.iconColor) muda de cor*/
+  filter: invert(10%) sepia(64%) saturate(2578%) hue-rotate(152deg) brightness(100%) contrast(103%);
+}
