@@ -1,5 +1,5 @@
 body {
-  font-family: 'Roboto Mono';
+  font-family: 'Open Sans';
   font-weight: 600;
   font-size: 1rem;
   line-height: 1.6;
@@ -11,6 +11,7 @@ a{
   text-decoration: none;
   color: var(--primary1);
   font-size: 1.25rem;
+  font-family: 'Montserrat';
 
 }
 
@@ -72,11 +73,12 @@ a:hover{
 
 .textContent{
   color: var(--primary2);
+  align-self: flex-start;
 }
 
 .name{
   margin-top: 0.25rem;
-  font-family: 'Indie Flower';
+  font-family: 'Montserrat';
   font-size: 1.5rem;
 }
 
@@ -111,8 +113,12 @@ a:hover{
 
 .scroll{
   flex-direction: column;
-  font-family: 'Indie Flower';
+  font-family: 'Open Sans';
   font-size: 1.25rem;
+}
+
+#scroll{
+  align-self: center;
 }
 
 .verticalLine{
@@ -143,7 +149,6 @@ a:hover{
   margin-top: 2rem;
   height: 3rem;
   border-radius: 0.5rem;
-  font-family: 'Roboto Mono';
   font-weight: 600;
   font-size: 1.25rem;
   background-color: var(--primary2);
@@ -182,7 +187,7 @@ a:hover{
 
 .projectName{
   color: var(--primary1);
-  font-family: 'Indie Flower';
+  font-family: 'Montserrat';
   font-size: 1.25rem;
 }
 
@@ -252,6 +257,7 @@ a:hover{
 
 .createdBy{
   font-size: 0.75rem;
+  align-self: center;
 }
 
 .social{
