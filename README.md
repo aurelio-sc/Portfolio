@@ -4,5 +4,6 @@
 - [x] Projects
 - [x] Contact
 - [x] Footer
-- [ ] Media Queries <- Next step!
+- [x] Media Queries
+- [ ] "Back to top" buttons - Next step!
 
